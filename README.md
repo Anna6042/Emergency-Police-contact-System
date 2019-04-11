@@ -1,2 +1,5 @@
 # Emergency-Police-contact-System
-An Android Project on/emergency police contact
+Call Asap is an android based project. I worked on this project for my CSE491 course.
+This project is on emergency police contact system. There are 25 police station information and phone number of OC of respective police stations. 
+In the first layout there is a button for view all the numbers of police stations in different locality. Every number is working dynamically to call and send Sms to the specific number. When any button is clicked, two options will be showed in next activity: One is call and another is Send location. If user clicks call button, the application will be redirected to the default calling menu of phone with the number. User can call to that number then. If user clicks the ‘Send location‘ button, the next screen will show four different buttons. There will be a start button; by clicking it the apps will capture the current Latitude and Longitude with the help of GPS. The Latitude and Longitude will change each 5 seconds interval. If the user walks in different locations, the latitude and longitude will be updated. User can Stop the capturing and get last location information by clicking “Get Last Location”. Meanwhile, the last location data can be send to the number via SmS as a Google maps link to the designated number. 
+
